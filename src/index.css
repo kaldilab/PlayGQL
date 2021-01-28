@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.text-center {
+  padding: 5rem 0;
+  text-align: center;
+}
+.title {
+  padding: 1rem 0;
+  text-align: center;
+}
+button {
+  padding: 0.5rem 1rem;
+}
+header,
+footer {
+  background-color: #eee;
+  padding: .5rem 0;
+  text-align: center;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #999;
+}
+nav ul li a.active {
+  color: #000;
+}
+main .example {
+  list-style: none;
+  padding: 0;
+}
+main .example > li {
+  padding: 1rem;
+  padding-top: 0;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+}
+main .example > li figure {
+  margin: 0 0 1rem;
+}
+main .example > li figure img {
+  width: 25%;
+  min-width: 250px;
+}
+main .navi {
+  padding: 1rem 0;
+  text-align: center;
+}
+main .navi button {
+  margin: 0 1rem;
+  text-align: center;
+}
